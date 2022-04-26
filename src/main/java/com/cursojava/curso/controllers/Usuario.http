@@ -1,0 +1,10 @@
+GET http://localhost:8080/User
+Accept: application/json
+
+###
+POST http://localhost:8080/inventario
+Content-Type: application/json
+
+###
+[{"id":1,"name":"Nelson Alarza","email":"nelson.alarza@globant.com","phoneNumber":"3167550494","city":"Maicao","address":"calle 3 27-78"}]
+
