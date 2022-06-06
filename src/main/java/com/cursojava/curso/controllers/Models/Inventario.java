@@ -2,7 +2,7 @@ package com.cursojava.curso.controllers.Models;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "inventario")
+@Table(name = "nuevas_tablas")
 public class Inventario {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
